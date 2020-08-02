@@ -1,0 +1,79 @@
+body{
+    background-image: url(https://cdn.hipwallpaper.com/i/22/96/idTraM.jpg);
+}
+
+#account-Controls{
+    position: right;
+    top: 0;
+    margin-right: 10px;
+    width: auto;
+    height: 20px;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    background-color: transparent;
+    justify-content: space-between;
+    float: right;
+}
+
+#logo{
+    padding-top: 250px;
+    text-align: center;   
+}
+
+#searchbox{
+    text-align: center;
+}
+
+#searchbox-microphone{
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+#mv-tiles{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#customize-button{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+}
+
+iframe{
+    background-color: transparent;
+    height: 70px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+iframe:hover{
+    cursor: pointer;
+}
+
+input[type=search]{
+    width: 300px;
+    height: 27px;
+    padding-left: 15px;
+}
+
+img{
+    height: 150px;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    color: gray;
+    cursor: pointer;
+}
